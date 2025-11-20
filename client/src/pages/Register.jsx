@@ -47,7 +47,6 @@ const Register = () => {
                             <Form.Group className="mb-3">
                                 <Form.Label>Nama</Form.Label>
                                 <Form.Control type="text" name="username" value={formData.username} onChange={handleChange} required/>
-                                <Form.Label>Password</Form.Label>
                                 <Form.Label>Email</Form.Label>
                                 <Form.Control type="email" name="email" value={formData.email} onChange={handleChange} required/>
                                 <Form.Label>Password</Form.Label>
